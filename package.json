@@ -1,0 +1,53 @@
+{
+  "name": "http-folder-sync",
+  "version": "0.1.4",
+  "description": "A simple zero-configuration command-line file sharing utility",
+  "main": "./lib/master",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thfrei/http-folder-sync.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "file-sharing"
+  ],
+  "scripts": {
+    "start": "node ./bin/http-folder-sync",
+    "master": "node ./lib/master",
+    "slave": "node ./lib/slave",
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "contributors": [],
+  "dependencies": {
+    "commander": "^2.11.0",
+    "download-file": "^0.1.5",
+    "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "ngrok": "^2.2.14",
+    "node-watch": "^0.5.5",
+    "request": "^2.81.0",
+    "serve-index": "^1.9.0",
+    "slash": "^1.0.0",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/thfrei/http-folder-sync/issues"
+  },
+  "license": "MIT",
+  "preferGlobal": "true",
+  "bin": {
+    "http-folder-sync-master": "./bin/http-folder-sync-master",
+    "hfsm": "./bin/http-folder-sync-master",
+    "http-folder-sync-slave": "./bin/http-folder-sync-slave",
+    "hfss": "./bin/http-folder-sync-slave"
+  }
+}
