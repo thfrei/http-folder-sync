@@ -1,5 +1,5 @@
 # http-folder-sync (a.k.a hfs)
-Hnstantly share and sync a folder over an http-tunnel.
+Instantly share and sync a folder over an http-tunnel.
 
 
 Installation
