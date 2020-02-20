@@ -1,6 +1,20 @@
-node_modules/*
+# Don't check auto-generated stuff into git
+coverage
+build
+deploy
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
 npm-debug.log
 .idea
 .vscode
-test/slave
+
+# Error.Logs
 yarn-error.log
+
+# vim
+*~
+
+test/slave

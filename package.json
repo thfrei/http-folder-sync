@@ -13,9 +13,9 @@
     "file-sharing"
   ],
   "scripts": {
-    "start": "node ./bin/http-folder-sync",
-    "master": "node ./lib/master",
-    "slave": "node ./lib/slave",
+    "master": "node ./bin/http-folder-sync-master",
+    "slave": "node ./bin/http-folder-sync-slave",
+    "local:install": "npm install -g .",
     "prettier:check": "prettier --check \"./**/*.js\"",
     "prettier:lint": "prettier --check --write \"./**/*.js\"",
     "auto-changelog": "auto-changelog -p --tag-prefix v --commit-limit false",
