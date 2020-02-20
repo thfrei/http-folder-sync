@@ -11,7 +11,7 @@ program
   .parse(process.argv);
 
 if (typeof program.host === "undefined") {
-  console.error('define a host');
+  console.error('define a host. run: http-folder-sync-slave -h <URL>');
   process.exit(1);
 }
 
