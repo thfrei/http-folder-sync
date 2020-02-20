@@ -1,16 +1,17 @@
 #!/usr/bin/env node
 
-const startServer = require('./../lib/master.js').startServer;
-const package = require('./../package.json');
+const program = require("commander");
 
-var program = require('commander');
+const {startServer} = require("./../lib/master.js");
+const pkg = require("./../package.json");
+
 program
-  .version(package.version)
-  .option('-p, --port [port]', 'Host url')
-  .option('-d, --dir [dir]', 'master directory')
-  .parse(process.argv);
+    .version(pkg.version)
+    .option("-p, --port [port]", "Host url")
+    .option("-d, --dir [dir]", "master directory")
+    .parse(process.argv);
 
 startServer({
-  port: program.port,
-  directory: program.dir
+    port: program.port,
+    directory: program.dir,
 });
