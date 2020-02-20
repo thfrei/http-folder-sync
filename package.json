@@ -23,21 +23,21 @@
   ],
   "contributors": [],
   "dependencies": {
-    "commander": "^2.11.0",
+    "commander": "^4.1.1",
     "download-file": "^0.1.5",
-    "express": "^4.15.3",
-    "glob": "^7.1.2",
-    "lodash": "^4.17.4",
-    "ngrok": "^2.2.14",
-    "node-watch": "^0.5.5",
-    "request": "^2.81.0",
-    "serve-index": "^1.9.0",
-    "slash": "^1.0.0",
-    "socket.io": "^2.0.3",
-    "socket.io-client": "^2.0.3"
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15",
+    "ngrok": "^3.2.7",
+    "node-watch": "^0.6.3",
+    "request": "^2.88.2",
+    "serve-index": "^1.9.1",
+    "slash": "^3.0.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
-    "eslint": "^4.2.0"
+    "eslint": "^6.8.0"
   },
   "bugs": {
     "url": "https://github.com/thfrei/http-folder-sync/issues"
