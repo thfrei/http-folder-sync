@@ -31,7 +31,7 @@
     "download-file": "0.1.5",
     "express": "4.17.1",
     "glob": "7.1.6",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "ngrok": "3.2.7",
     "node-watch": "0.6.3",
     "request": "2.88.2",
